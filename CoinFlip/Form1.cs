@@ -31,7 +31,7 @@ namespace CoinFlip
 
         public void Flip()
         {
-            
+            //flips a coin
             int result = coinFlip.Next(2);
 
             if (result == 0)
